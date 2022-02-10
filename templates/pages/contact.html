@@ -1,0 +1,31 @@
+{% extends '_base.html' %}
+{% block title %}Contacts{% endblock title %}
+
+{% block content %}
+
+<section class="contact">
+<h1>Contact Us!</h1>
+                                                                                                                                                                                                                         
+<h3>How can we help?</h3>
+<form>
+    <label>First Name:</label> <br>
+    <input class="firstname" placeholder="Enter your First Name" id="firstname"><br><br>
+    <label>Email Address:</label> <br>
+    <input class="email" placeholder="Enter a valid email address" id="email"><br><br>
+    <label>Message:</label> <br>
+    <input class="message" placeholder="Write a message to us" id="message"><br><br>
+    <button type="submit">Submit</button>
+</form>
+
+<ul>
+    <div class="social-icons">
+        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+    </div>
+</ul>
+</section>
+
+{% endblock %}
+
