@@ -6,14 +6,21 @@ def HomePageView(request):
 
 def ContactPageView(request):
 <<<<<<< HEAD
+<<<<<<< HEAD
     return render(request, 'pages/contact.html')
 
 def CatogoriesPageView(request):
     return render(request,'pages/categories.html')    
 =======
+=======
+>>>>>>> upstream/main
     return render(request, 'pages/contact.html') 
 
 
 def CartPageView(request):
+<<<<<<< HEAD
+    return render(request, 'pages/cart.html')      
+>>>>>>> upstream/main
+=======
     return render(request, 'pages/cart.html')      
 >>>>>>> upstream/main
