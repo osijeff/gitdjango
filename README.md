@@ -72,3 +72,20 @@ step # 6 create a urls.py file inside the shop app to list all the shop app view
 step # 7 register the shop url inside project urls file. dnt forget to import include module
 
         syntax: path('', include('shop.urls', namespace='shop')),
+
+
+WORKING ON NAVIGATION, 
+Step # 1 include static folder
+step # 2 configure the static folder in settings.py file
+
+        syntax:        STATICFILES_DIRS = [ os.path.join(BASE_DIR, 'static'),]
+                       STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+step # 3 load static in base .html
+        syntax: {% load static %}
+
+step 4 link css in base.html
+        syntax : <link rel="stylesheet" href="{% static 'css/style.css'%}">
+
+step 5 link the bootstrap
+        syntax: <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"></script>
