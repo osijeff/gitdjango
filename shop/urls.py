@@ -5,4 +5,5 @@ app_name = 'home'
 urlpatterns=[
 path('', HomePageView, name='home'),
 path('contact', ContactPageView, name = 'contact'),
+path('cart', CartPageView, name = 'cart'),
 ]

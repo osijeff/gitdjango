@@ -5,4 +5,8 @@ def HomePageView(request):
     return render(request, 'home.html')
 
 def ContactPageView(request):
-    return render(request, 'pages/contact.html')    
+    return render(request, 'pages/contact.html') 
+
+
+def CartPageView(request):
+    return render(request, 'pages/cart.html')      
