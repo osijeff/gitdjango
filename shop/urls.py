@@ -1,9 +1,8 @@
 from .views import *
 from django.urls import path
 
-app_name = 'home'
+app_name = 'shop'
 urlpatterns=[
 path('', HomePageView, name='home'),
-path('contact', ContactPageView, name = 'contact'),
-path('cart', CartPageView, name = 'cart'),
+
 ]
